@@ -1,0 +1,21 @@
+
+h1{
+    color:pink;
+    background-color: black;
+}
+#t3{
+    color:yellow;
+    background-color: lightgray;
+}
+.fundocinza{
+    background-color: gray;
+}
+.texto{
+    color:red;
+}
+body{
+    font-family: sans-serif;
+}
+h2{
+    color:green;
+}

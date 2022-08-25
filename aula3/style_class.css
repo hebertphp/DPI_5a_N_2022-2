@@ -1,0 +1,15 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fundo_cinza{
+    background-color: gray;
+}
+.fundo_amarelo{
+    background-color: yellow;
+}
+.texto_azul{
+    color:blue;
+}
+.texto_vermelho{
+    color:red;
+}
