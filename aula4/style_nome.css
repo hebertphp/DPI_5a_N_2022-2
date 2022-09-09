@@ -1,0 +1,15 @@
+.cor1{ background-color: red; }
+.cor2{ background-color: green; }
+.cor3{ background-color: blue; }
+.cor4{ background-color: yellow; }
+.cor5{ background-color: aquamarine; }
+.cor6{
+    background-color: black;
+    color: white;
+}
+h1{
+    background-color: darkslategray;
+}
+body{
+    background-color: lightgray;
+}/* comenta */
