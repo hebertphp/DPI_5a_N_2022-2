@@ -3,7 +3,15 @@
 .cor3{ background-color: rgb(0%, 0%, 100%); } /* azul */
 .cor4{ background-color: rgb(255, 255, 0); }/* amarela */
 .cor5{ background-color: rgb(128, 128, 128); }/*  cinza */
-	.cor6{
+.cor6{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
+#outracor{
+    background-color: rgb(0,255,255);
+}
+/*
+RGB (vermelho, verde, azul)
+0-255
+
+*/
