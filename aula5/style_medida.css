@@ -1,0 +1,28 @@
+body{ 
+    background-color: hsl(0, 0%, 70%);
+}
+p{ 
+    text-align: center; 
+}
+.tam1{ 
+    background-color:hsla(60,100%,50%, 0.3); 
+}
+.tam2{ 
+    font-size:12pt;
+    background-color:hsla(240,100%,50%,0.3);
+}
+.tam3{
+    font-size:100%;
+    background-color:hsla(120,100%,50%,0.3);
+}
+.tam4{
+    font-size:32px;
+    background-color: hsla(0,100%,50%,0.3);
+}
+.tam5{
+    font-size: 2rem;
+    background-color: hsla(300,100%,50%,0.3);
+}
+span{
+    font-size:2rem;
+}
