@@ -1,0 +1,24 @@
+h1{
+    font-size:3rem;
+  }
+  h2{
+    font-size:2.5rem;
+  }
+  .f1{
+    font-family: Arial, sans-serif;
+  }
+  .f2{
+    font-family: Georgia, serif;
+  }
+  .f3{
+    font-family: 'Courier New', monospace;
+  }
+  .f4{
+    font-family: 'Brush Script MT', cursive;
+  }
+  .f5{
+    font-family: papyrus;
+  }
+  .f6{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
