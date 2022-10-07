@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#dv1{
+    background-color: aquamarine;
+    width: 300px;
+    height: 200px;
+    /* margin:30px; */
+    /* padding: 20px; */
+    border: 3px solid blue;
+}
+img{
+    width:200px;
+}
+#dv2{
+    background-color: orange;
+    background-image: url('cristal.jpg');
+    background-size:cover;
+    background-position: 50% 50%;/* center  */
+    background-repeat: no-repeat;
+    width:300px;
+    height: 100px;
+    /* margin:10px auto; */
+    color: #fff;
+}
