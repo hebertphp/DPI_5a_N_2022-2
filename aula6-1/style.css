@@ -5,7 +5,17 @@
     box-sizing: border-box;
 }
 .tudo{
-    width: 600px;
-    height: 300px;
-    border: 1px solid #00f;
+    width: 70%;/* 70% da largura do navegador  */
+    /* height: 300px; */
+    border: 1px solid blue;
+    margin: 0 auto;
+}
+.tudo img{/* formatar as imagens que estão dentro da classe tudo  */
+    width: 100%;/* 100% da largura da class="tudo" */
+}
+h1{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    height: 50px;
 }
