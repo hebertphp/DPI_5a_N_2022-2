@@ -4,3 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+.tudo{
+    width: 600px;
+    height: 300px;
+    border: 1px solid #00f;
+}
