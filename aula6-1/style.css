@@ -19,3 +19,7 @@ h1{
     text-align: center;
     height: 50px;
 }
+.sec1,.sec2{
+    background-color: gray;
+    height: 100vh;
+}
