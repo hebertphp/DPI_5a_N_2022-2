@@ -24,5 +24,12 @@ h1{
     height: 100vh;
 }
 nav{
-    background-color: hsl(0 0% 0/0.3);
+    background-color: #000;
 }
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: gray;
+}    
