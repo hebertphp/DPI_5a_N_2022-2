@@ -1,0 +1,47 @@
+/* cria variáveis css */
+:root{
+    --cor-fundo:hsl(240, 100%, 30%);/* cria a variável --cor-fundo com a cor azul escuro */
+    --cor-hover: hsl(0, 0%, 50%);/*  cria a variável --cor-hover com a cor cinza*/
+    --cor-link: hsl(0, 0%, 100%);/* cria a variável --cor-link com a cor branca*/
+}
+
+/* -- reset de página */
+*{
+    margin:0;/* zera as margens */
+    padding:0;/* zera os epsaçamentos internos */
+    box-sizing: border-box;/* calcula a largura e altura dos elementos sem levar em conta, padding e border */
+    font-family: Arial, Helvetica, sans-serif;/* família de fontes Arial, Helvetica, sans-serif*/
+}
+
+/* formata a tag header */
+header{
+    height: 60px;/* altura de 60px */
+    background-color: var(--cor-fundo);/* aplica o valor da variável --cor-fundo para a cor de fundo */
+    display: flex;/* permite colocar os elementos um ao lado do outro, no caso h2 e nav  */
+    align-items: center;/* alinhamento na vertical centralizado */
+    justify-content: space-between;/* coloca os elementos nos cantos */
+    padding: 0px 30px;/* espaçamento interno para cima e baixo 0px, direito e esquerda 30px (para o logo e o menu não ficar colado nos cantos) */
+}
+
+/* formata todos os links, tag a */
+a{
+    text-decoration: none;/* retira o sublinhado dos links, tag a */
+    color: var(--cor-link);/* aplica o valor da variável --cor-link para a cor do texto */
+}
+
+/* formata a tag ul que está dentro de nav que está dentro de header */
+header nav ul{
+    list-style: none;/* retira os marcadores das listas */
+    display: flex;/* permite colocar os elementos um ao lado do outro, no caso as tags li */
+}
+
+/* formata a tag a que está dentro de li que está dentro de ul que está dentro de nav que está dentro de header */
+header nav ul li a{
+    transition: 0.5s;/* cria uma transição de 0.5 segundos */
+    padding: 20px 15px;/* espaçamento interno para cima e baixo 20px, direito e esquerda 15px */
+}
+
+/* formata ao passar o mouse sobre a tag a que está dentro de li que está dentro de ul que está dentro de nav que está dentro de header */
+header nav ul li a:hover{
+    background-color: var(--cor-hover);/* aplica o valor da variável --cor-hover para a cor de fundo  */
+}
