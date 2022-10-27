@@ -1,4 +1,5 @@
 /* cria variáveis css */
+
 :root{
     --cor-fundo:hsl(240, 100%, 30%);/* cria a variável --cor-fundo com a cor azul escuro */
     --cor-hover: hsl(0, 0%, 50%);/*  cria a variável --cor-hover com a cor cinza*/
