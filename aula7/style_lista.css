@@ -1,3 +1,6 @@
 .menu{ /* estilizando para a class="menu" */
-    list-style-type: upper-roman;
+    list-style-type: upper-roman;/* mudou para algarismo romano maiúsculo*/
+}
+ul{
+    list-style-type: none;/* retirei todas as marcações da tag UL */ 
 }
