@@ -1,0 +1,12 @@
+.abobora{
+    width: 500px;
+}
+.imagem{
+    display: flex;
+    gap:20px;
+}
+.imagem div{/*formatando a div que está dentro da class="imagem" */
+    border:1px solid red;
+    
+    
+}
