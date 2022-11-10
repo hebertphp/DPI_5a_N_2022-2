@@ -1,5 +1,5 @@
 /* cria variáveis css */
-
+/* Declaração de variaveis */
 :root{
     --cor-fundo:hsl(240, 100%, 30%);/* cria a variável --cor-fundo com a cor azul escuro */
     --cor-hover: hsl(0, 0%, 50%);/*  cria a variável --cor-hover com a cor cinza*/
@@ -51,4 +51,10 @@ header nav ul li a{
 /* formata ao passar o mouse sobre a tag a que está dentro de li que está dentro de ul que está dentro de nav que está dentro de header */
 header nav ul li a:hover{
     background-color: var(--cor-hover);/* aplica o valor da variável --cor-hover para a cor de fundo  */
+}
+
+.container{
+    width: 100%;
+    height: 60vh;
+    border: 1px solid red;
 }
