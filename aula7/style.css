@@ -4,6 +4,12 @@
     --cor-fundo:hsl(240, 100%, 30%);/* cria a variável --cor-fundo com a cor azul escuro */
     --cor-hover: hsl(0, 0%, 50%);/*  cria a variável --cor-hover com a cor cinza*/
     --cor-link: hsl(0, 0%, 100%);/* cria a variável --cor-link com a cor branca*/
+    --cor-am:yellow;
+
+    --cor-d1:red;
+    --cor-d2:green;
+    --cor-d3:blue;
+    /* --nome-da-var:valor; */
 }
 
 /* -- reset de página */
