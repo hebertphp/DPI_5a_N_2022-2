@@ -6,8 +6,8 @@
     --cor-link: hsl(0, 0%, 100%);/* cria a variável --cor-link com a cor branca*/
     --cor-am:yellow;
 
-    --cor-d1:red;
-    --cor-d2:green;
+    --cor-d1:orange;
+    --cor-d2:pink;
     --cor-d3:blue;
     /* --nome-da-var:valor; */
 }
@@ -57,6 +57,8 @@ header nav ul li a:hover{
     width: 100%;
     height: 60vh;
     border: 1px solid red;
+    display: flex;
+    justify-content: end; /* alinhamento na horizontal justify-content: center|end*/  
 }
 /* formatar todas as div que estão dentro do container */
 .container div{
