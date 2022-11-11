@@ -58,7 +58,10 @@ header nav ul li a:hover{
     height: 60vh;
     border: 1px solid red;
     display: flex;
-    justify-content: end; /* alinhamento na horizontal justify-content: center|end*/  
+    justify-content: center; /* alinhamento na horizontal justify-content: center|end|start|space-around|space-evenly*/  
+    align-items: center; /* align-items: center|end; */
+    gap: 5px;
+    flex-wrap: wrap;
 }
 /* formatar todas as div que estão dentro do container */
 .container div{
