@@ -62,15 +62,20 @@ header nav ul li a:hover{
     align-items: center; /* align-items: center|end; */
     gap: 5px;
     flex-wrap: wrap;
+    background-image: linear-gradient(to top right,yellow,red,blue);
 }
 /* formatar todas as div que estão dentro do container */
 .container div{
     width: 250px;
     height: 50px;
     border: 1px solid blue;
+   
 }
 .d1{
     background-color: var(--cor-d1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .d2{
     background-color: var(--cor-d2);
