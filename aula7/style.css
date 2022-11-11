@@ -62,7 +62,7 @@ header nav ul li a:hover{
     align-items: center; /* align-items: center|end; */
     gap: 5px;
     flex-wrap: wrap;
-    background-image: linear-gradient(to top right,yellow,red,blue);
+    background-image: linear-gradient(to top right,var(--cor-am),red,blue);
 }
 /* formatar todas as div que estão dentro do container */
 .container div{
