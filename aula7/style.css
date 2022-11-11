@@ -58,3 +58,18 @@ header nav ul li a:hover{
     height: 60vh;
     border: 1px solid red;
 }
+/* formatar todas as div que estão dentro do container */
+.container div{
+    width: 250px;
+    height: 50px;
+    border: 1px solid blue;
+}
+.d1{
+    background-color: var(--cor-d1);
+}
+.d2{
+    background-color: var(--cor-d2);
+}
+.d3{
+    background-color: var(--cor-d3);
+}
