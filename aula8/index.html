@@ -8,11 +8,15 @@
 </head>
 <body>
     <form name="form1" method="post" action="http://hebertphp.awardspace.us/recebe.php" autocomplete="off">
-       <label for="login">Login</label> <input type="text" name="login" id="login" required placeholder="Digite seu login"><span>*</span><br>
-       <label for="senha">Senha</label> <input type="password" name="senha" id="senha" required placeholder="Digite sua senha"><span>*</span><br>
-       <label for="ra">RA</label><input type="number" name="ra" id="ra" required placeholder="Digite seu RA"><span>*</span><br>
-       <input type="hidden" name="local" value="São Paulo">
-       
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label for="login">Login</label> <input type="text" name="login" id="login" required placeholder="Digite seu login"><span>*</span><br>
+            <label for="senha">Senha</label> <input type="password" name="senha" id="senha" required placeholder="Digite sua senha"><span>*</span><br>
+            <label for="ra">RA</label><input type="number" name="ra" id="ra" required placeholder="Digite seu RA"><span>*</span><br>
+            <!-- Cep <input type="text" name="cep" id="cep" value="01012-123"><br> -->
+            <input type="hidden" name="local" value="São Paulo">
+        </fieldset>
+        
        <input type="submit" value="Enviar 📑"><input type="reset" value="Limpar">
     </form>
 </body>
